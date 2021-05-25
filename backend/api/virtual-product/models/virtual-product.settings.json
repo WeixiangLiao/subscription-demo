@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "virtual_products",
+  "info": {
+    "name": "virtualProduct",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "priceId": {
+      "type": "string"
+    }
+  }
+}
